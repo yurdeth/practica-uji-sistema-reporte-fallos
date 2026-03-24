@@ -93,7 +93,10 @@ SELECT indexname FROM pg_indexes WHERE tablename = 'reportes_fallos';
 
 -- Ver los comentarios de metadatos
 SELECT obj_description('tecnicos'::regclass);  -- Comentario de la tabla
-SELECT col_description('pizarras'::regclass, 'estado');  -- Comentario de la columna
+SELECT col_description('pizarras'::regclass, attnum) -- Comentario de la columna
+FROM pg_attribute 
+WHERE attrelid = 'pizarras'::regclass 
+  AND attname = 'estado';
 
 -- Ver la estructura de la tabla reportes_fallos
 \d+ reportes_fallos
