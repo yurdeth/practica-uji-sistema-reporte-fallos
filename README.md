@@ -134,9 +134,11 @@ WHERE attrelid = 'pizarras'::regclass
 | Archivo | Descripción |
 |---------|-------------|
 | `main.sql` | Punto de entrada único que llama a todos los demás scripts |
-| `20230324_create_tablas.sql` | Crea las tablas: pizarras, tecnicos, reportes_fallos |
-| `20230324_create_trigger.sql` | Crea función PL/pgSQL y trigger de actualización de estado |
-| `20230324_alter_table.sql` | Agrega columna nivel_prioridad con restricción CHECK |
+| `20230323_create_tablas.sql` | Crea las tablas: pizarras, tecnicos, reportes_fallos |
+| `20230324_create_triggers.sql` | Crea función PL/pgSQL y trigger de actualización de estado |
+| `20230324_create_alter.sql` | Agrega columna nivel_prioridad con restricción CHECK |
 | `20230324_create_indices.sql` | Crea índices para optimizar consultas |
 | `20230324_create_script_mantenimiento.sql` | Ejecuta VACUUM ANALYZE para mantenimiento |
 | `20230324_create_metadatos.sql` | Agrega comentarios COMMENT ON al esquema |
+| `20230324_create_insert_data.sql` | Inserta datos de prueba (7 pizarras, 5 técnicos, 5 reportes) |
+| `20230324_create_tests.sql` | Ejecuta pruebas de validación del sistema |

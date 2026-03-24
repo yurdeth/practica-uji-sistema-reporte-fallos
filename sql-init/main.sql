@@ -1,6 +1,4 @@
--- Este archivo es el punto de entrada único para la creación de todos los objetos de la base de datos y el mismo se ejecuta al levantar el contenedor por primera vez
-
--- Ejecución manual: docker exec -it postgres17 psql -U postgres -d sistema_reporte_fallos -f /docker-entrypoint-initdb.d/main.sql
+\echo 'Iniciando instalacion del sistema'
 
 \i /docker-entrypoint-initdb.d/scripts/20230323_create_tablas.sql
 
@@ -14,4 +12,6 @@
 
 \i /docker-entrypoint-initdb.d/scripts/20230324_create_metadatos.sql
 
-\i /docker-entrypoint-initdb.d/scripts/20230324_create_test_data.sql
+\i /docker-entrypoint-initdb.d/scripts/20230324_create_insert_data.sql
+
+\i /docker-entrypoint-initdb.d/scripts/20230324_create_tests.sql
