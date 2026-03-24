@@ -1,3 +1,9 @@
+\echo 'Reiniciando esquema completo...'
+
+DROP TABLE IF EXISTS reportes_fallos CASCADE;
+DROP TABLE IF EXISTS pizarras CASCADE;
+DROP TABLE IF EXISTS tecnicos CASCADE;
+
 \echo 'Creando tablas...'
 
 CREATE TABLE pizarras
