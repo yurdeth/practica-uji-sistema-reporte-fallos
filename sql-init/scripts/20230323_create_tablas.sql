@@ -41,4 +41,4 @@ CREATE TABLE reportes_fallos
             ON DELETE SET NULL
 );
 
-\echo 'Se rearon las tablas ......'
+\echo 'Se crearon las tablas ......'
