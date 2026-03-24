@@ -1,0 +1,13 @@
+# PostgreSQL data
+pgdata/
+
+# Logs
+*.log
+
+# IDE
+.idea
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
