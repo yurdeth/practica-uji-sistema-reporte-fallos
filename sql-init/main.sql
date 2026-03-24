@@ -13,3 +13,7 @@
 \i /docker-entrypoint-initdb.d/scripts/20230324_create_script_mantenimiento.sql
 
 \i /docker-entrypoint-initdb.d/scripts/20230324_create_metadatos.sql
+
+\i /docker-entrypoint-initdb.d/20230324_create_metadatos.sql
+
+\i /docker-entrypoint-initdb.d/20230324_test_data.sql
