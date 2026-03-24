@@ -57,7 +57,7 @@ pgadmin            dpage/pgadmin4     Up
 3. Agregar un nuevo servidor:
    - **Nombre**: PostgreSQL 17 (o el nombre que se prefiera)
    - **Host**: postgres17 (o localhost si se conecta desde fuera del contenedor)
-   - **Puerto**: 5434
+   - **Puerto**: 5432 (o 5434 si se conecta desde fuera del contenedor)
    - **Usuario**: postgres
    - **Contraseña**: admin123
    - **Base de datos**: sistema_reporte_fallos
