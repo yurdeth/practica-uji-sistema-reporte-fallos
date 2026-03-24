@@ -6,5 +6,5 @@ COMMENT ON TABLE tecnicos IS
 COMMENT ON COLUMN pizarras.estado IS
     'Estado operativo de la pizarra: Operativa, En Reparación o Fuera de Servicio';
 
-\echo 'Se agregaron os metadatos.....'
+\echo 'Se agregaron los metadatos.....'
 \echo 'ejecución exitosa'
