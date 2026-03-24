@@ -11,4 +11,4 @@ CREATE INDEX idx_reportes_fallos_tecnico
 -- La desventaja es que cada inserción, actualización o borrado cuesta un poco más, porque el sistema también debe mantener estos índices actualizados
 -- El administrador o la persona acargo debe equilibrar la velocidad de lectura contra el costo adicional en operaciones de escritura
 
-\echo 'Secrearon los índices......'
+\echo 'Se crearon los índices......'
