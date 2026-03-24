@@ -140,4 +140,3 @@ WHERE attrelid = 'pizarras'::regclass
 | `20230324_create_indices.sql` | Crea índices para optimizar consultas |
 | `20230324_create_script_mantenimiento.sql` | Ejecuta VACUUM ANALYZE para mantenimiento |
 | `20230324_create_metadatos.sql` | Agrega comentarios COMMENT ON al esquema |
-| `20230324_test_data.sql` | Inserta datos de prueba y valida trigger, ON DELETE SET NULL y CASCADE |
