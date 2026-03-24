@@ -14,6 +14,4 @@
 
 \i /docker-entrypoint-initdb.d/scripts/20230324_create_metadatos.sql
 
-\i /docker-entrypoint-initdb.d/20230324_create_metadatos.sql
-
-\i /docker-entrypoint-initdb.d/20230324_test_data.sql
+\i /docker-entrypoint-initdb.d/scripts/20230324_test_data.sql
